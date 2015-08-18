@@ -61,7 +61,6 @@ out = parse( '{"beep":"boop","a":"b"}', reviver );
 var request = require( 'request' ),
 	parse = require( 'utils-json-parse' );
 
-
 function onResponse( error, response, body ) {
 	var out;
 	if ( error ) {
