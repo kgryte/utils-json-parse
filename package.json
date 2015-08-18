@@ -1,6 +1,6 @@
 {
   "name": "utils-json-parse",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Wraps JSON#parse in a try/catch block.",
   "author": {
     "name": "Athan Reines",
