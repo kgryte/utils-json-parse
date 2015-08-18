@@ -23,7 +23,7 @@ var parse = require( 'utils-json-parse' );
 Wraps [`JSON#parse`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse) in a `try/catch` block.
 
 ``` javascript
-var out = parse( '{"beep":"boop"}')
+var out = parse( '{"beep":"boop"}' );
 // returns {'beep':'boop'}
 
 out = parse( '{beep:boop"}' );
