@@ -3,7 +3,6 @@
 var request = require( 'request' ),
 	parse = require( './../lib' );
 
-
 function onResponse( error, response, body ) {
 	var out;
 	if ( error ) {
